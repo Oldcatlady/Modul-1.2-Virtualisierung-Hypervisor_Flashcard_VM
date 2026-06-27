@@ -1,0 +1,58 @@
+[
+  {
+    "question": "In welchem Umfeld wird Typ 2 typischerweise eingesetzt?",
+    "answer": "Lokale Testumgebungen auf Client-PCs, Entwicklung."
+  },
+  {
+    "question": "Nenne zwei konkrete Beispiele für Typ-1-Hypervisoren.",
+    "answer": "VMware ESXi, Proxmox."
+  },
+  {
+    "question": "Nenne zwei konkrete Beispiele für Typ-2-Hypervisoren.",
+    "answer": "Oracle VirtualBox, VMware Workstation."
+  },
+  {
+    "question": "Was ist die Einschränkung von Typ-1-Hypervisoren bezüglich Hardware?",
+    "answer": "Er läuft nicht auf jeder Hardware — er benötigt spezifische Treiber-Unterstützung."
+  },
+  {
+    "question": "Was bedeutet Single Point of Failure im Kontext der Virtualisierung?",
+    "answer": "Ein einzelner Ausfallpunkt, dessen Versagen das gesamte System zum Absturz bringt."
+  },
+  {
+    "question": "Welche konkreten Folgen hat der Ausfall eines physischen Hosts?",
+    "answer": "Alle VMs auf diesem Host stürzen gleichzeitig ab — alle betroffenen Nutzer können nicht mehr arbeiten."
+  },
+  {
+    "question": "Warum spart Virtualisierung Kosten?",
+    "answer": "Weniger physische Server bedeuten weniger Strom-, Kühlungs- und Platzkosten im Rechenzentrum."
+  },
+  {
+    "question": "Wie hoch ist die typische Auslastung physischer Server ohne Virtualisierung?",
+    "answer": "Typischerweise nur 10–15%."
+  },
+  {
+    "question": "Was sind die hohen Initialkosten bei Virtualisierung?",
+    "answer": "Leistungsstarke Server-Hardware und Storage-Systeme sind in der Anschaffung teuer."
+  },
+  {
+    "question": "Was ist Intel VT-x?",
+    "answer": "Intels CPU-Funktion, die Hardwarevirtualisierung ermöglicht — muss im BIOS/UEFI aktiviert sein."
+  },
+  {
+    "question": "Was ist AMD SVM?",
+    "answer": "AMDs Equivalent zu Intel VT-x — ermöglicht Hardwarevirtualisierung auf AMD-Prozessoren."
+  },
+  {
+    "question": "Wo muss VT-x / SVM aktiviert werden?",
+    "answer": "Im BIOS/UEFI des physischen Rechners."
+  },
+  {
+    "question": "Wie viel RAM wird mindestens für einen Test-PC empfohlen?",
+    "answer": "Mindestens 8 GB RAM."
+  },
+  {
+    "question": "Warum wird SSD gegenüber HDD bevorzugt?",
+    "answer": "SSD ist deutlich schneller bei Lese-/Schreibzugriffen, was VM-Performance stark beeinflusst."
+  }
+]
