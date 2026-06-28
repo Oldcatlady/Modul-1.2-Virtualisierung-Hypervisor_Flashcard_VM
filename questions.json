@@ -1,7 +1,7 @@
 [
   {
-    "question": "In welchem Umfeld wird Typ 2 typischerweise eingesetzt?",
-    "answer": "Lokale Testumgebungen auf Client-PCs, Entwicklung."
+    "question": "In welchem Umfeld wird ein Typ 2 Hypervisor typischerweise eingesetzt?",
+    "answer": "Ein Typ 2 Hypervisor wird vor allem auf Client-PCs für lokale Testumgebungen und Entwicklungszwecke verwendet."
   },
   {
     "question": "Nenne zwei konkrete Beispiele für Typ-1-Hypervisoren.",
@@ -20,7 +20,7 @@
     "answer": "Ein einzelner Ausfallpunkt, dessen Versagen das gesamte System zum Absturz bringt."
   },
   {
-    "question": "Welche konkreten Folgen hat der Ausfall eines physischen Hosts?",
+    "question": "Welche konkreten Folgen hat der Ausfall eines physischen Hosts (Server)?",
     "answer": "Alle VMs auf diesem Host stürzen gleichzeitig ab — alle betroffenen Nutzer können nicht mehr arbeiten."
   },
   {
@@ -41,15 +41,15 @@
   },
   {
     "question": "Was ist AMD SVM?",
-    "answer": "AMDs Equivalent zu Intel VT-x — ermöglicht Hardwarevirtualisierung auf AMD-Prozessoren."
+    "answer": "SVM (Secure Virtual Machine) ermöglicht Hardwarevirtualisierung auf AMD-Prozessoren und muss im BIOS/ UEFI aktiviert werden."
   },
   {
     "question": "Wo muss VT-x / SVM aktiviert werden?",
     "answer": "Im BIOS/UEFI des physischen Rechners."
   },
   {
-    "question": "Wie viel RAM wird mindestens für einen Test-PC empfohlen?",
-    "answer": "Mindestens 8 GB RAM."
+    "question": "Welche mindest RAM-Ausstattung wird für den Betrieb eines Testsystems mit Virtualisierung empfohlen?",
+    "answer": "Mindestens 8 GB RAM werden voraus gesetzt."
   },
   {
     "question": "Warum wird SSD gegenüber HDD bevorzugt?",
